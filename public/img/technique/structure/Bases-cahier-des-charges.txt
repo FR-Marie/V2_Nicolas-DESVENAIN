@@ -1,0 +1,25 @@
+BASES CAHIER DES CHARGES - NICOLAS DESVENAIN
+
+1/ Le site de M. DESVENAIN doit présenter:
+-son activité = présentation de sa profession
+-ses réalisations = les projets réalisés et en cours
+-les articles parus dans la presse à son sujet
+-ses partenariats
+-comment le contacter
+
+____________________________________________________________________________________________________________________
+
+Le besoin de M. DESVENAIN d'avoir un back administrateur pour pouvoir par la suite ajouter/modifier
+le contenu de son site par lui-même sans avoir à faire appel à un développeur.
+
+Afin que le site soit le plus fonctionnel, simple d'utilisation (à la fois pour l'utilisateur autant que pour
+l'administrateur), il a été décidé d'utiliser les langages suivants:
+-Le framework Symfony pour le back notamment grâce à l'utilisation de bundles tels que EasyAdmin afin d'avoir
+un espace d'aministration épuré et sécurisé.
+-Le langage Javascript pour le front afin d'apporter de la modernité et de l'animation.
+
+____________________________________________________________________________________________________________________
+2 structures possibles:
+-Un seul dossier: un back Symfony présenté en front grâce aux langages TWIG et Javascript.
+-Deux dossiers: un back Symfony et un front en Javascript. Le tout relié par API Platform.
+____________________________________________________________________________________________________________________

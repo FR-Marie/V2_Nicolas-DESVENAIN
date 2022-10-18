@@ -1,0 +1,379 @@
+/********* COULEURS *********/
+$grisMarron: #322e2b;
+$grisMarron-Transp: rgba(50, 46, 43, 0.5);
+
+
+/********* POLICES *********/
+$droite-1: 'Josefin Sans', sans-serif;
+$droite-2-effects: 'Rubik Dirt', cursive;
+
+$cursive-2: 'Cookie', cursive;
+$cursive-3: 'Dancing Script', cursive;
+$cursive-4: 'Courgette', cursive;
+$cursive-5:'Satisfy', cursive;
+
+
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //background-color: #454545;
+  background-image: url("https://zupimages.net/up/22/42/6gjb.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: $droite-1;
+}
+
+/********* TITRES *********/
+h1{
+  color: whitesmoke;
+  font-size: 140px;
+  font-family: $cursive-3;
+  color: $grisMarron;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+h2{
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: $cursive-3;
+  color: $grisMarron;
+}
+#h2-pages{
+  color: whitesmoke;
+  font-size: 80px;
+  font-family: $cursive-3;
+  color: $grisMarron;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+h3{
+  color: whitesmoke;
+  font-size: 35px;
+  color: $grisMarron;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+h4{
+  font-family: $cursive-3;
+  color: $grisMarron;
+  font-size: 35px;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+
+
+/****************************************************************************/
+/********************************** NAVBAR **********************************/
+/****************************************************************************/
+navbar{
+  //background-color: $grisMarron;
+  background-image: url("https://zupimages.net/up/22/40/50fm.png");
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  font-size: 30px;
+  font-family: $droite-1;
+}
+.nav-link {
+  color: $grisMarron!important;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+.custom-toggler.navbar-toggler {
+  border-color: whitesmoke;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+  "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#logo-navbar{
+  height: 250px;
+  width: 250px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 20px 2px black;
+  position: absolute;
+  background-color: $grisMarron;
+}
+.clignote {
+  color:$grisMarron;
+  animation: clignote 2s linear infinite;
+}
+@keyframes clignote {
+  50% { opacity: 0.5; }
+}
+
+/****************************************************************************/
+/********************************** FOOTER **********************************/
+/****************************************************************************/
+footer{
+  background-color: $grisMarron;
+  position: relative;
+
+  font-family: $droite-1;
+}
+#logo-footer{
+  height: 250px;
+  width: 250px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 20px 2px black;
+}
+footer a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/****************************************************************************/
+/************************** LA LUTHERIE - ACCUEIL ***************************/
+/****************************************************************************/
+.p-intro{
+  font-size: 20px;
+  font-weight: bold;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.gauche {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  perspective: 1000px;
+}
+
+.gauche a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url("https://zupimages.net/up/22/39/qp67.jpg");
+  background-size: 0, cover;
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+  transform: rotateX(35deg);
+}
+
+.gauche:hover a {
+  transform: rotateX(5deg);
+  transform-origin: top;
+}
+.gauche a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 36px;
+  background: inherit;
+  background-size: cover, cover;
+  background-position: bottom;
+  transform: rotateX(80deg);
+  transform-origin: bottom;
+}
+
+.droite {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  perspective: 1000px;
+}
+
+.droite a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url("https://zupimages.net/up/22/39/qp67.jpg");
+  background-size: 0, cover;
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+  transform: rotateX(35deg);
+}
+
+.droite:hover a {
+  transform: rotateX(5deg);
+  transform-origin: top;
+}
+.droite a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 36px;
+  background: inherit;
+  background-size: cover, cover;
+  background-position: bottom;
+  transform: rotateX(80deg);
+  transform-origin: bottom;
+}
+
+
+
+/**** toggle de la présentation de la lutherie ****/
+.text-pres-hidden{
+  display: none;
+}
+.text-pres-showed{
+  background-color: rgba(172, 172, 172, 0.5);
+  color: $grisMarron;
+  font-size: 30px;
+  width: 70%;
+  margin: auto;
+  animation: fadein 5s;
+  -moz-animation: fadein 5s; /* Firefox */
+  -webkit-animation: fadein 5s; /* Safari et Chrome */
+  -o-animation: fadein 5s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+/**** toggle de la galerie de la lutherie ****/
+.galerie-hidden{
+  display: none;
+}
+.galerie-showed{
+  display: flex;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari et Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+
+
+
+/****************************************************************************/
+/**************************** PRESENTATION - P2 *****************************/
+/****************************************************************************/
+.section-presentation{
+  background-color: rgba(172, 172, 172, 0.5);
+  border-radius: 50px;
+}
+.p-pres{
+  font-size: 20px;
+  color: $grisMarron;
+}
+
+/****************************************************************************/
+/**************************** REALISATIONS - P3 *****************************/
+/****************************************************************************/
+/********PAGINATIONS********/
+.pagination{
+  justify-content: center!important;
+}
+.page-link{
+  color: whitesmoke;
+  background-color: $grisMarron;
+}
+.page-item.disabled .page-link {
+  color: #949494;
+  background-color: $grisMarron;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: $grisMarron;
+  background-color: whitesmoke;
+  border-color: green;
+}
+.page-link:hover{
+  color: #B0413E;
+  background-color: antiquewhite;
+}
+nav{
+  background-color: rgba(255, 255, 255, 0);
+}
+/**fin pagination**/
+
+#col-rea-liens{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#cards-rea{
+  background-color: $grisMarron;
+  color: whitesmoke;
+}
+.card-title{
+  height: 150px;
+}
+.img-card:hover{
+  transform: scale(2);
+}
+
+#realisations-recherche{
+  background-color: $grisMarron-Transp;
+}
+.select-rech{
+  background-color: $grisMarron;
+  color: whitesmoke;
+}
+
+#videos-container{
+  border-top: 2px solid white;
+  background-color: $grisMarron-Transp;
+}
+
+/****************************************************************************/
+/**************************** ACTUALITES - P4 *****************************/
+/****************************************************************************/
+
+
+
+/****************************************************************************/
+/******************************* CONTACT - P5 *******************************/
+/****************************************************************************/
+
+
+
+
+/****************************************************************************/
+/******************************** RESPONSIVE ********************************/
+/****************************************************************************/
+/***responsive nav ***/
+@media screen and (max-width: 1024px) {
+  #logo-navbar{
+    height: 250px;
+    width: 250px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 20px 2px black;
+    position: relative;
+    background-color: $grisMarron;
+    margin-bottom: 20px;
+  }
+  nav a{
+    margin-top: 15px;
+  }
+  #logo-footer{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 20px 2px black;
+    position: relative;
+    margin-left: 3%;
+    margin-bottom: 20px;
+  }
+  #col-liens-utiles{
+    margin-top: 10px;
+  }
+  #col-contacts{
+    margin-top: 10px;
+  }
+  #col-plan-du-site{
+    margin-top: 10px;
+  }
+}

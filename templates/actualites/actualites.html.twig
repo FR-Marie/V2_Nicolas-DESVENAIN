@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ titreSite }} - {{ titrePage }}{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <h2 id="h2-pages" class="text-center">{{ titrePage }}</h2>
+        </div>
+    </div>
+
+
+    <div class="row text-center text-danger">
+    {% for actualite in actualites %}
+        <div class="col-lg-4 col-sm-12">
+            {{ actualite.titreActualite }}
+        </div>
+    {% endfor %}
+    </div>
+
+
+{% endblock %}

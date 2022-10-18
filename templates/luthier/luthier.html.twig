@@ -1,0 +1,82 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ titreSite }} - {{ titrePage }}{% endblock %}
+
+{% block body %}
+
+    {% for luthierPres in presentation %}
+        <div class="row">
+            <h2 id="h2-pages" class="text-center mt-5">{{ luthierPres.titrePage }}</h2>
+        </div>
+        <div class="container section-presentation mt-5 mb-5 p-5">
+
+
+
+            <div class="row mt-5">
+
+                <div class="col-lg-5 col-sm-12">
+                    <!----carousel---->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide m-auto" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ luthierPres.imageSlide1 }}" class="d-block w-100"
+                                     alt="{{ luthierPres.titrePage }}"
+                                     title="{{ luthierPres.titrePage }}">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ luthierPres.imageSlide2 }}" class="d-block w-100"
+                                     alt="{{ luthierPres.titrePage }}"
+                                     title="{{ luthierPres.titrePage }}">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ luthierPres.imageSlide3 }}" class="d-block w-100"
+                                     alt="{{ luthierPres.titrePage }}"
+                                     title="{{ luthierPres.titrePage }}">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ luthierPres.imageSlide4 }}" class="d-block w-100"
+                                     alt="{{ luthierPres.titrePage }}"
+                                     title="{{ luthierPres.titrePage }}">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ luthierPres.imageSlide4 }}" class="d-block w-100"
+                                     alt="{{ luthierPres.titrePage }}"
+                                     title="{{ luthierPres.titrePage }}">
+                            </div>
+                        </div>
+                        <!----carousel---->
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-sm-12">
+                    <h3>{{ luthierPres.titreIntroduction }}</h3>
+                    <p class="p-pres mt-3">{{ luthierPres.introduction }}</p>
+                </div>
+
+                <!--row-->
+            </div>
+
+            <div class="mt-5">
+                <div class="row">
+                    <h3>{{ luthierPres.titreTexte1 }}</h3>
+                    <p>{{ luthierPres.texte1 }}</p>
+                </div>
+
+                <div class="row">
+                    <h3>{{ luthierPres.titreTexte2 }}</h3>
+                    <p>{{ luthierPres.texte2 }}</p>
+                </div>
+
+                <div class="row">
+                    <h3>{{ luthierPres.titreTexte3 }}</h3>
+                    <p>{{ luthierPres.texte3 }}</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    {% endfor %}
+
+
+{% endblock %}

@@ -1,0 +1,88 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ titreSite }} - {{ titrePage }}{% endblock %}
+
+{% block body %}
+
+    {% for lutherie in lutherieContent %}
+        <div class="container mt-3">
+            <div class="row">
+                <h1 class="text-center">{{ lutherie.titreSite }}</h1>
+            </div>
+
+            <div class="row text-center">
+                <h2 class="text-white">{{ lutherie.titreIntroduction }}</h2>
+                <p class="p-intro">{{ lutherie.introduction }}</p>
+            </div>
+        </div>
+
+
+        <div class="row mt-3 mb-5 justify-content-center">
+
+            <div id="" class="col-lg-4 col-sm-12">
+                <div class="gauche">
+                    <a id="description" onclick="showHideDescription()" href="#"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <div class="droite">
+                    <a id="galerie" onclick="showHideGalerie()" href="#"></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row mt-5 mb-5">
+            <div id="toggle-description" class="text-pres-hidden mt-5 mb-5 p-5">
+                <h3 class="text-center">L'histoire de la Lutherie</h3>
+                <p>{{ lutherie.description1 }}</p>
+                <hr>
+                <p>{{ lutherie.description2 }}</p>
+            </div>
+        </div>
+
+
+
+        <div id="toggle-galerie" class="row galerie-hidden mt-5 mb-5 text-center">
+
+            <h3>Galerie photos</h3>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie1 }}">
+            </div>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie2 }}">
+            </div>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie3 }}">
+            </div>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie4 }}">
+            </div>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie5 }}">
+            </div>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie6 }}">
+            </div>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie7 }}">
+            </div>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie8 }}">
+            </div>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie9 }}">
+            </div>
+            <div class="img-galerie col-lg-4 col-sm-12 mb-4">
+                <img class="w-75" src="{{ lutherie.galerie10 }}">
+            </div>
+
+        </div>
+
+
+    {% endfor %}
+
+{% endblock %}
+
