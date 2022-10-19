@@ -5,18 +5,40 @@
 {% block body %}
     <div class="container">
         <div class="row">
-            <h2 id="h2-pages" class="text-center">{{ titrePage }}</h2>
+            <h2 id="h2-pages" class="text-center mt-3">{{ titrePage }}</h2>
         </div>
     </div>
 
+    <div class="row justify-content-center mt-5 mb-5">
 
-    <div class="row text-center text-danger">
-    {% for actualite in actualites %}
-        <div class="col-lg-4 col-sm-12">
-            {{ actualite.titreActualite }}
+
+        <div id="actusPresse-container" class="col-3 mx-2">
+            <h3 class="text-center p-3">Dans la presse</h3>
+
+            {% for actualite in actualites %}
+                <div id="card-actus" class="card w-75 mb-3 m-auto">
+                    <div class="card-header text-center">{{ actualite.titreActualite }}</div>
+                    <img src="{{ actualite.imageActualite }}" class="w-75 m-auto">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <p class="p-actuPresse">{{ actualite.resumeActualite }}</p>
+                            <a href="{{ actualite.lienactualite }}">Cliquez pour lire</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-    {% endfor %}
+
+        <div id="actus-container" class="col-8 mx-2">
+            <div class="row">
+                <h3 class="text-center p-3">A la une</h3>
+
+            </div>
+        </div>
+
+
     </div>
+
 
 
 {% endblock %}
