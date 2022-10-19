@@ -31,8 +31,16 @@
                 </li>
 
                 {% if is_granted('ROLE_ADMIN') %}
-                    <a class="nav-link bg-danger" href="#"><span class="text-dark">|</span> ADMIN</a>
-                    <a class="nav-link clignote ms-2 border border-danger" href="{{ path('app_logout') }}"><i class="fa-solid fa-power-off text-danger"></i></a>
+                    <div class="d-block">
+                        <div>
+                            <a class="nav-link bg-danger text-center" href="{{ path('admin') }}">ADMIN</a>
+                        </div>
+                        <div>
+                            <p class="p-mail-nav">{{ app.user.email }}</p>
+                        </div>
+                    </div>
+
+                    <a class="nav-link clignote ms-2" href="{{ path('app_logout') }}"><i class="fa-solid fa-power-off text-danger"></i></a>
                 {% else %}
                     <li>
                         <a class="nav-link clignote border border-primary" href="{{ path('app_login') }}"><i class="fa-solid fa-power-off text-primary"></i></a>

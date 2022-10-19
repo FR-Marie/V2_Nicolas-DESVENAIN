@@ -74,15 +74,15 @@
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/css/style.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/javascript/javascript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/v2_nicolas_desvenain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/v2_nicolas_desvenain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
@@ -243,6 +243,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
     </include_path>
   </component>
   <component name="ProjectId" id="2GFjNH777zey9hvZ4s71Y321GWB" />
@@ -279,7 +282,7 @@
       <workItem from="1666077311267" duration="8790000" />
       <workItem from="1666088712448" duration="395000" />
       <workItem from="1666089157474" duration="9086000" />
-      <workItem from="1666160826174" duration="4221000" />
+      <workItem from="1666160826174" duration="6418000" />
     </task>
     <servers />
   </component>
