@@ -51,7 +51,7 @@ class ContactController extends AbstractController
 
         return $this->render('contact/contact.html.twig', [
             'titreSite' => 'Lutherie d\'Oc',
-            'titrePage' => 'Contact',
+            'titrePage' => 'Contactez Nicolas',
             'form' => $form->createView()
         ]);
     }

@@ -1,4 +1,4 @@
-<navbar class="navbar navbar-expand-lg p-4">
+<navbar class="navbar navbar-expand-lg p-0">
     <div class="container-fluid">
 
         <!----------->
@@ -24,10 +24,10 @@
                     <a class="nav-link clignote" href="{{ path('app_realisations') }}"><span class="text-dark">|</span> Réalisations &ensp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link clignote" href="{{ path('app_actualites') }}"><span class="text-dark">|</span> Actualités &ensp;</a>
+                    <a class="nav-link clignote" href="{{ path('app_actualites') }}"><span class="text-dark">|</span> Actualités - Agenda &ensp;</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link clignote" href="{{ path('app_contact') }}"><span class="text-dark">|</span> Contact &ensp;</a>
+                    <a class="nav-link clignote" href="{{ path('app_contact') }}"><span class="text-dark">|</span> Contacts &ensp;</a>
                 </li>
 
                 {% if is_granted('ROLE_ADMIN') %}

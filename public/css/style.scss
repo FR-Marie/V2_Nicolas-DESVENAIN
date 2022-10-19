@@ -57,6 +57,9 @@ h3{
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: whitesmoke;
 }
+.h3-footer{
+  font-size: 30px;
+}
 h4{
   font-family: $cursive-3;
   color: $grisMarron;
@@ -74,8 +77,8 @@ navbar{
   background-image: url("https://zupimages.net/up/22/40/50fm.png");
   background-position: center;
   background-size: cover;
-  height: 250px;
-  font-size: 30px;
+  height: 200px;
+  font-size: 25px;
   font-family: $droite-1;
 }
 .nav-link {
@@ -117,7 +120,6 @@ navbar{
 footer{
   background-color: $grisMarron;
   position: relative;
-
   font-family: $droite-1;
 }
 #logo-footer{
@@ -342,7 +344,16 @@ nav{
 /****************************************************************************/
 /******************************* CONTACT - P5 *******************************/
 /****************************************************************************/
-
+#img-contact{
+  width: 150%;
+  position: relative;
+  z-index: 2000;
+}
+.form-contact{
+  position: relative;
+  z-index: 0;
+  bottom: 200px;
+}
 
 /****************************************************************************/
 /************************ FORMULAIRE ENREGISTREMENT *************************/

@@ -5,15 +5,20 @@
 {% block body %}
     <div class="container">
 
-        <div class="row">
-            <h2 id="h2-pages" class="text-center">{{ titrePage }}</h2>
+        <div class="row justify-content-center">
+            <div class="col-3 offset-2">
+                <h2 id="h2-pages" class="text-center">{{ titrePage }}</h2>
+            </div>
+            <div class="col-4">
+                <img id="img-contact" src="https://zupimages.net/up/22/42/q54h.png" alt="contact" title="contact">
+            </div>
         </div>
 
 
-        <div class="row p-5 contact-form justify-content-center">
+        <div id="form-container" class="form-contact row p-4 contact-form justify-content-center w-50 m-auto mb-5">
 
-            <div class="col-lg-6 text-white">
-                <div class="d-flex justify-content-around">
+            <div class="text-white">
+                <div id="bloc-contact" class="d-flex">
                     <div class="form-group w-50 me-3">
                         {{ form_start(form) }}
                         {{ form_row(form.nom, {'attr': {'class': 'form-control'}}) }}
@@ -40,7 +45,6 @@
             </div>
 
         </div>
-
 
 
     </div>
