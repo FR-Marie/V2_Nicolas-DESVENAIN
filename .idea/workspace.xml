@@ -74,9 +74,16 @@
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/css/style.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/javascript/javascript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/knp_paginator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/knp_paginator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/RealisationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RealisationsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Actualites.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Actualites.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Lutherie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Lutherie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Luthier.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Luthier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Videos.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Videos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/VideosRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/VideosRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
@@ -277,7 +284,7 @@
       <workItem from="1666088712448" duration="395000" />
       <workItem from="1666089157474" duration="9086000" />
       <workItem from="1666160826174" duration="15331000" />
-      <workItem from="1666334411467" duration="7225000" />
+      <workItem from="1666334411467" duration="11824000" />
     </task>
     <servers />
   </component>

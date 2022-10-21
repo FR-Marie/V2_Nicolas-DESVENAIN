@@ -52,6 +52,7 @@ class RealisationsController extends AbstractController
             'controller_name' => 'RealisationsController',
             'titreSite' => 'Lutherie d\'Oc',
             'titrePage' => 'Réalisations',
+            'titreBlocVideos' => 'Découvrez des vidéos',
             'realisations' => $paginationRealisations,
             'videos' =>$paginationVideos,
             'instruments' => $instrumentsRepository->findAll(),

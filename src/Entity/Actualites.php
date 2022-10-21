@@ -28,7 +28,7 @@ class Actualites
     private $titre_actualite;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $image_actualite;
 

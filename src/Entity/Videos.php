@@ -32,6 +32,7 @@ class Videos
      */
     private $chemin_video;
 
+
     public function getId(): ?int
     {
         return $this->id;
@@ -72,4 +73,5 @@ class Videos
 
         return $this;
     }
+
 }
