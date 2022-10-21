@@ -28,17 +28,32 @@ class RealisationsController extends AbstractController
                                              VideosRepository $videosRepository, InstrumentsRepository $instrumentsRepository,
                                              EpoquesRepository $epoquesRepository, Request $request): Response
     {
-        $pagination = $paginator->paginate(
+        $paginationRealisations = $paginator->paginate(
             $realisationsRepository->findAll(),
-            $request->query->getInt('page', 1),3
+            $request->query->getInt('page1', 1),3,
+            [
+                'pageParameterName' => 'page1',
+                'sortFieldParameterName' => 'sort1',
+                'sortDirectionParameterName' => 'direction1'
+            ]
+        );
+
+        $paginationVideos = $paginator->paginate(
+            $videosRepository->findAll(),
+            $request->query->getInt('page2',1),6,
+            [
+                'pageParameterName' => 'page2',
+                'sortFieldParameterName' => 'sort2',
+                'sortDirectionParameterName' => 'direction2'
+            ]
         );
 
         return $this->render('realisations/realisations.html.twig', [
             'controller_name' => 'RealisationsController',
             'titreSite' => 'Lutherie d\'Oc',
             'titrePage' => 'Réalisations',
-            'realisationsPaginees' => $pagination,
-            'videos' =>$videosRepository->findAll(),
+            'realisations' => $paginationRealisations,
+            'videos' =>$paginationVideos,
             'instruments' => $instrumentsRepository->findAll(),
             'epoques' => $epoquesRepository->findAll(),
         ]);

@@ -33,7 +33,7 @@
                 {% if is_granted('ROLE_ADMIN') %}
                     <div class="d-block">
                         <div>
-                            <a class="nav-link bg-danger text-center" href="{{ path('admin') }}">ADMIN</a>
+                            <a class="nav-link bg-danger text-center" href="{{ path('admin') }}" target="_blank">ADMIN</a>
                         </div>
                         <div>
                             <p class="p-mail-nav">{{ app.user.email }}</p>
@@ -46,7 +46,6 @@
                         <a class="nav-link clignote border border-primary" href="{{ path('app_login') }}"><i class="fa-solid fa-power-off text-primary"></i></a>
                     </li>
                 {% endif %}
-
 
 
             </ul>

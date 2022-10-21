@@ -74,6 +74,10 @@
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/css/style.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/javascript/javascript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/knp_paginator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/knp_paginator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RealisationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RealisationsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" afterDir="false" />
@@ -273,7 +277,7 @@
       <workItem from="1666088712448" duration="395000" />
       <workItem from="1666089157474" duration="9086000" />
       <workItem from="1666160826174" duration="15331000" />
-      <workItem from="1666334411467" duration="796000" />
+      <workItem from="1666334411467" duration="7225000" />
     </task>
     <servers />
   </component>

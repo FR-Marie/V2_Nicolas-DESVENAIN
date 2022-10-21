@@ -43,7 +43,7 @@
 
     <div class="row justify-content-center mt-5">
 
-        {% for realisation in realisationsPaginees %}
+        {% for realisation in realisations %}
             <div class="col-lg-3 col-sm-12 mt-3">
                 <div id="cards-rea" class="card h-100">
                     <div class="card-img">
@@ -85,7 +85,7 @@
     </div>
 
     <div class="navigation w-75 m-auto mt-5 mb-5">
-        {{ knp_pagination_render(realisationsPaginees) }}
+        {{ knp_pagination_render(realisations) }}
     </div>
 
 
@@ -98,10 +98,14 @@
             {% for video in videos %}
                 <div class="col-lg-3 col-sm-12 mt-3 border border-white mx-2">
                     <h4 class="mt-2">{{ video.titreVideo }}</h4>
-                    <video controls src="{{ video.cheminVideo }}"></video>
+                    <iframe src="{{ video.cheminVideo }}" title="{{ video.titreVideo }}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p class="">{{ video.descriptionVideo }}</p>
                 </div>
             {% endfor %}
+
+            <div class="navigation w-75 m-auto mt-5 mb-5">
+                {{ knp_pagination_render(videos) }}
+            </div>
         </div>
     </div>
 
