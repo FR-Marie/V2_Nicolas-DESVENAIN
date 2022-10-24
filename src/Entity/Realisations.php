@@ -77,6 +77,16 @@ class Realisations
      */
     private $video_realisation;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Instruments::class, inversedBy="realisations")
+     */
+    private $instrument;
+
+    /**
+     * @ORM\ManyToOne(targetEntity=Epoques::class, inversedBy="realisations")
+     */
+    private $epoque;
+
 
     public function getId(): ?int
     {
@@ -223,6 +233,30 @@ class Realisations
     public function setVideoRealisation(?string $video_realisation): self
     {
         $this->video_realisation = $video_realisation;
+
+        return $this;
+    }
+
+    public function getInstrument(): ?Instruments
+    {
+        return $this->instrument;
+    }
+
+    public function setInstrument(?Instruments $instrument): self
+    {
+        $this->instrument = $instrument;
+
+        return $this;
+    }
+
+    public function getEpoque(): ?Epoques
+    {
+        return $this->epoque;
+    }
+
+    public function setEpoque(?Epoques $epoque): self
+    {
+        $this->epoque = $epoque;
 
         return $this;
     }

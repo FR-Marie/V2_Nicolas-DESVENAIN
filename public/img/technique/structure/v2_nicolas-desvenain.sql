@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : ven. 21 oct. 2022 à 07:03
+-- Généré le : lun. 24 oct. 2022 à 11:03
 -- Version du serveur : 8.0.27
 -- Version de PHP : 7.4.26
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `actualites` (
   `id` int NOT NULL AUTO_INCREMENT,
   `date_actualite` datetime NOT NULL,
   `titre_actualite` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `image_actualite` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image_actualite` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `lien_actualite` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `resume_actualite` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
@@ -77,7 +77,9 @@ INSERT INTO `doctrine_migration_versions` (`version`, `executed_at`, `execution_
 ('DoctrineMigrations\\Version20221018125323', '2022-10-18 12:53:30', 44),
 ('DoctrineMigrations\\Version20221018125354', '2022-10-18 12:54:03', 40),
 ('DoctrineMigrations\\Version20221018130934', '2022-10-18 13:09:40', 32),
-('DoctrineMigrations\\Version20221019063905', '2022-10-19 06:39:14', 194);
+('DoctrineMigrations\\Version20221019063905', '2022-10-19 06:39:14', 194),
+('DoctrineMigrations\\Version20221021134531', '2022-10-21 13:45:39', 178),
+('DoctrineMigrations\\Version20221024071919', '2022-10-24 07:19:26', 178);
 
 -- --------------------------------------------------------
 
@@ -147,22 +149,22 @@ CREATE TABLE IF NOT EXISTS `lutherie` (
   `image_description` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `image_galerie` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `description1` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
-  `description2` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `description2` longtext COLLATE utf8mb4_unicode_ci,
   `galerie1` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `galerie2` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `galerie3` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie4` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie5` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie6` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie7` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie8` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie9` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie10` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie11` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie12` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie13` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie14` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `galerie15` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `galerie4` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie5` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie6` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie7` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie8` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie9` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie10` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie11` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie12` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie13` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie14` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `galerie15` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -186,16 +188,16 @@ CREATE TABLE IF NOT EXISTS `luthier` (
   `image_slide1` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `image_slide2` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `image_slide3` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `image_slide4` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `image_slide5` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image_slide4` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `image_slide5` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `titre_introduction` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
   `introduction` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
   `titre_texte1` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
   `texte1` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
-  `titre_texte2` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `texte2` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
-  `titre_texte3` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `texte3` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `titre_texte2` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `texte2` longtext COLLATE utf8mb4_unicode_ci,
+  `titre_texte3` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `texte3` longtext COLLATE utf8mb4_unicode_ci,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -226,6 +228,28 @@ CREATE TABLE IF NOT EXISTS `messenger_messages` (
   KEY `IDX_75EA56E0E3BD61CE` (`available_at`),
   KEY `IDX_75EA56E016BA31DB` (`delivered_at`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `projets_en_cours`
+--
+
+DROP TABLE IF EXISTS `projets_en_cours`;
+CREATE TABLE IF NOT EXISTS `projets_en_cours` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `titre_projet` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `image_projet` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `resume_projet` longtext COLLATE utf8mb4_unicode_ci,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Déchargement des données de la table `projets_en_cours`
+--
+
+INSERT INTO `projets_en_cours` (`id`, `titre_projet`, `image_projet`, `resume_projet`) VALUES
+(2, 'Titre du projet en cours', 'https://zupimages.net/up/22/39/qp67.jpg', 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).');
 
 -- --------------------------------------------------------
 
@@ -307,14 +331,14 @@ CREATE TABLE IF NOT EXISTS `videos` (
 --
 
 INSERT INTO `videos` (`id`, `titre_video`, `description_video`, `chemin_video`) VALUES
-(1, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://youtu.be/ijdU9hzTFSw'),
-(2, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ijdU9hzTFSw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>'),
-(3, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ijdU9hzTFSw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>'),
-(4, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ijdU9hzTFSw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>'),
-(5, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://youtu.be/ijdU9hzTFSw'),
-(6, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ijdU9hzTFSw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>'),
-(7, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ijdU9hzTFSw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>'),
-(8, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ijdU9hzTFSw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>');
+(1, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://www.youtube.com/embed/ijdU9hzTFSw'),
+(2, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://www.youtube.com/embed/ijdU9hzTFSw'),
+(3, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://www.youtube.com/embed/ijdU9hzTFSw'),
+(4, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://www.youtube.com/embed/ijdU9hzTFSw'),
+(5, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://www.youtube.com/embed/ijdU9hzTFSw'),
+(6, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://www.youtube.com/embed/ijdU9hzTFSw'),
+(7, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://www.youtube.com/embed/ijdU9hzTFSw'),
+(8, 'La première vidéo', 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero.', 'https://www.youtube.com/embed/ijdU9hzTFSw');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
