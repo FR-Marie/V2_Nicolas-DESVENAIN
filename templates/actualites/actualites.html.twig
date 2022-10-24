@@ -9,35 +9,75 @@
         </div>
     </div>
 
-    <div class="row justify-content-center mt-5 mb-5">
-
-
-        <div id="actusPresse-container" class="col-3 mx-2">
-            <h3 class="text-center p-3">Dans la presse</h3>
-
-            {% for actualite in actualites %}
-                <div id="card-actus" class="card w-75 mb-3 m-auto">
-                    <div class="card-header text-center">{{ actualite.titreActualite }}</div>
-                    <img src="{{ actualite.imageActualite }}" class="w-75 m-auto">
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p class="p-actuPresse">{{ actualite.resumeActualite }}</p>
-                            <a href="{{ actualite.lienactualite }}">Cliquez pour lire</a>
+    <div class="container">
+        <div class="row mt-1 mb-5">
+            <!----projet en cours---->
+            {% for projet in projetEnCours %}
+                {% if projet.titreProjet is defined %}
+                    <div id="card-projet" class="card text-light">
+                        <div class="row p-3">
+                            <div class="col-lg-4 col-sm-6">
+                                <img class="img-fluid w-75" src="{{ projet.imageProjet }}" alt="{{ projet.titreProjet }}" title="{{ projet.titreProjet }}">
+                            </div>
+                            <div class="col-lg-8 col-sm-6">
+                                <h3 class="">{{ projet.titreProjet }}</h3>
+                                <div class="row">
+                                    <p>{{ projet.resumeProjet }}</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                {% endif %}
             {% endfor %}
         </div>
+    </div>
 
-        <div id="actus-container" class="col-8 mx-2">
+    <div class="row justify-content-center mt-5 mb-5">
+
+        <!----agenda---->
+        <div id="actus-container" class="col-lg-3 col-sm-6 mx-2 text-center p-5">
             <div class="row">
-                <h3 class="text-center p-3">A la une</h3>
-
+                <h3 class="p-3">Agenda</h3>
+                <div>
+                    <img class="w-75"
+                         src="https://img.freepik.com/psd-premium/conception-du-calendrier-2020-pour-site-web-ui_150101-99.jpg">
+                </div>
             </div>
         </div>
 
+        <!----presse---->
+        <div id="actusPresse-container" class="col-lg-8 col-sm-6 mx-2">
+            <h3 class="text-center p-3">Dans la presse</h3>
+
+            <div class="row">
+                {% for actualite in actualites %}
+                    <div class="col-lg-4">
+                        <div id="card-actus" class="card w-75 mb-3 m-auto text-light">
+                            <div class="card-header text-center">{{ actualite.titreActualite }}</div>
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p class="p-actuPresse">{{ actualite.resumeActualite }}</p>
+                                    <a href="{{ actualite.lienactualite }}">Cliquez pour l'intégralité de l'article</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="navigation w-75 m-auto">
+                    {{ knp_pagination_render(actualites) }}
+                </div>
+            </div>
+
+        </div>
 
     </div>
+
+
+
+
+
 
 
 

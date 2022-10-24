@@ -325,7 +325,7 @@ nav {
   height: 150px;
 }
 
-.img-card:hover {
+.img-card-real:hover {
   transform: scale(2);
 }
 
@@ -355,11 +355,19 @@ nav {
 }
 
 #card-actus {
-  background-color: ghostwhite;
+  background-color: #322e2b;
 }
 
 .p-actuPresse {
   font-size: 15px;
+}
+
+#card-projet {
+  background-color: #322e2b;
+}
+
+#actus-agenda {
+  background-color: rgba(172, 172, 172, 0.5);
 }
 
 /****************************************************************************/

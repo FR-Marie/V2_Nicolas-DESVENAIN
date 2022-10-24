@@ -322,7 +322,7 @@ nav{
 .card-title{
   height: 150px;
 }
-.img-card:hover{
+.img-card-real:hover{
   transform: scale(2);
 }
 
@@ -349,10 +349,16 @@ nav{
   background-color: $grisMarron-Transp;
 }
 #card-actus{
-  background-color: ghostwhite;
+  background-color: $grisMarron;
 }
 .p-actuPresse{
   font-size: 15px;
+}
+#card-projet{
+  background-color: $grisMarron;
+}
+#actus-agenda{
+  background-color: rgba(172, 172, 172, 0.5);
 }
 
 
