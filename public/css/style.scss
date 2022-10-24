@@ -30,17 +30,19 @@ html,body{
 /********* TITRES *********/
 h1{
   color: whitesmoke;
-  font-size: 140px;
+  font-size: 120px;
   font-family: $cursive-3;
   color: $grisMarron;
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: whitesmoke;
+  text-shadow: 1px 7px 5px black;
 }
 h2{
   color: whitesmoke;
-  font-size: 50px;
+  font-size: 40px;
   font-family: $cursive-3;
   color: $grisMarron;
+  text-shadow: 1px 7px 5px black;
 }
 #h2-pages{
   color: whitesmoke;
@@ -49,6 +51,7 @@ h2{
   color: $grisMarron;
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: whitesmoke;
+  text-shadow: 1px 7px 5px black;
 }
 h3{
   color: whitesmoke;
@@ -56,6 +59,7 @@ h3{
   color: $grisMarron;
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: whitesmoke;
+  text-shadow: 1px 7px 5px black;
 }
 .h3-footer{
   font-size: 30px;
@@ -66,6 +70,7 @@ h4{
   font-size: 35px;
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: whitesmoke;
+  text-shadow: 1px 7px 5px black;
 }
 
 
@@ -74,12 +79,15 @@ h4{
 /****************************************************************************/
 navbar{
   //background-color: $grisMarron;
-  background-image: url("https://zupimages.net/up/22/40/50fm.png");
+  background-image: url("../img/technique/structure/nav2png.png");
   background-position: center;
   background-size: cover;
   height: 200px;
   font-size: 25px;
   font-family: $droite-1;
+}
+.navbar-nav{
+  margin-bottom: 40px;
 }
 .nav-link {
   color: $grisMarron!important;
@@ -94,8 +102,8 @@ navbar{
   "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 #logo-navbar{
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   padding-bottom: 10px;
   box-shadow: 2px 2px 20px 2px black;
   position: absolute;

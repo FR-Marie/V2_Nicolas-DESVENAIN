@@ -18,18 +18,20 @@ html, body {
 /********* TITRES *********/
 h1 {
   color: whitesmoke;
-  font-size: 140px;
+  font-size: 120px;
   font-family: "Dancing Script", cursive;
   color: #322e2b;
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: whitesmoke;
+  text-shadow: 1px 7px 5px black;
 }
 
 h2 {
   color: whitesmoke;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Dancing Script", cursive;
   color: #322e2b;
+  text-shadow: 1px 7px 5px black;
 }
 
 #h2-pages {
@@ -39,6 +41,7 @@ h2 {
   color: #322e2b;
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: whitesmoke;
+  text-shadow: 1px 7px 5px black;
 }
 
 h3 {
@@ -47,6 +50,7 @@ h3 {
   color: #322e2b;
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: whitesmoke;
+  text-shadow: 1px 7px 5px black;
 }
 
 .h3-footer {
@@ -59,18 +63,23 @@ h4 {
   font-size: 35px;
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: whitesmoke;
+  text-shadow: 1px 7px 5px black;
 }
 
 /****************************************************************************/
 /********************************** NAVBAR **********************************/
 /****************************************************************************/
 navbar {
-  background-image: url("https://zupimages.net/up/22/40/50fm.png");
+  background-image: url("../img/technique/structure/nav2png.png");
   background-position: center;
   background-size: cover;
   height: 200px;
   font-size: 25px;
   font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar-nav {
+  margin-bottom: 40px;
 }
 
 .nav-link {
@@ -88,8 +97,8 @@ navbar {
 }
 
 #logo-navbar {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   padding-bottom: 10px;
   box-shadow: 2px 2px 20px 2px black;
   position: absolute;
