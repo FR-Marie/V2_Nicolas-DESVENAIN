@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d75aec7-a382-4378-8405-cf520d80fd6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/realisations/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/navbar-accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/navbar-accueil.php" afterDir="false" />
@@ -74,12 +75,9 @@
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/css/style.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/javascript/javascript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/actualites/actualites.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/actualites/actualites.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/luthier/luthier.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/luthier/luthier.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/technique/structure/nav2psd.psd" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/technique/structure/nav2psd.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RealisationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RealisationsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
@@ -283,7 +281,8 @@
       <workItem from="1666334411467" duration="12203000" />
       <workItem from="1666361831367" duration="1121000" />
       <workItem from="1666594812769" duration="8718000" />
-      <workItem from="1666610108389" duration="3979000" />
+      <workItem from="1666610108389" duration="4800000" />
+      <workItem from="1666681630313" duration="19089000" />
     </task>
     <servers />
   </component>
@@ -306,6 +305,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1666683585418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666683585418" />
     <state x="736" y="432" key="ComposerInitDialogKey" timestamp="1665991980382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,10 +317,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666088979811" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1666362449966">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1666704206695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666362449966" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666704206695" />
     <state x="742" y="243" key="NewPhpClassDialog" timestamp="1666101269734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

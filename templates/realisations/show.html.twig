@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+
+    <h3 class="text-center">{{ RealisationsDetails.titreRealisation }}</h3>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div>
+                <img src="{{ RealisationsDetails.imageRealisation }}"
+                     alt="{{ RealisationsDetails.titreRealisation }}"
+                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
+            </div>
+
+            <div>
+                <img src="{{ RealisationsDetails.annexeRealisation1 }}"
+                     alt="{{ RealisationsDetails.titreRealisation }}"
+                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
+            </div>
+
+            <div>
+                <img src="{{ RealisationsDetails.annexeRealisation2 }}"
+                     alt="{{ RealisationsDetails.titreRealisation }}"
+                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
+            </div>
+
+            <div>
+                <img src="{{ RealisationsDetails.annexeRealisation3 }}"
+                     alt="{{ RealisationsDetails.titreRealisation }}"
+                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
+            </div>
+
+            <div>
+                <img src="{{ RealisationsDetails.annexeRealisation4 }}"
+                     alt="{{ RealisationsDetails.titreRealisation }}"
+                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
+            </div>
+
+            <div>
+                <img src="{{ RealisationsDetails.annexeRealisation5 }}"
+                     alt="{{ RealisationsDetails.titreRealisation }}"
+                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
+            </div>
+
+            <!--row-->
+        </div>
+
+
+        <div>
+            <p>
+                {{ RealisationsDetails.descriptionRealisation1 }}
+            </p>
+        </div>
+
+        <div>
+            <p>
+                {{ RealisationsDetails.descriptionRealisation2 }}
+            </p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+{% endblock %}

@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Realisations;
 use App\Repository\EpoquesRepository;
 use App\Repository\InstrumentsRepository;
 use App\Repository\RealisationsRepository;
@@ -57,6 +58,18 @@ class RealisationsController extends AbstractController
             'videos' =>$paginationVideos,
             'instruments' => $instrumentsRepository->findAll(),
             'epoques' => $epoquesRepository->findAll(),
+        ]);
+    }
+
+    /**
+     * @Route("/realisation/{id}", name="app_realisation_show", methods={"GET"})
+     * @param Realisations $realisations
+     * @return Response
+     */
+    public function show(Realisations $realisations): Response
+    {
+        return $this->render('realisations/show.html.twig', [
+            'RealisationsDetails' => $realisations,
         ]);
     }
 }
