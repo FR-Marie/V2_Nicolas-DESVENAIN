@@ -21,13 +21,18 @@
 
             <div id="" class="col-lg-4 col-sm-12">
                 <div class="gauche">
-                    <a id="description" onclick="showHideDescription()" href="#"></a>
+                    <img id="description" src="/img/site/lutherie{{ asset(lutherie.imageDescription) }}" class="gauche"
+                         onclick="showHideDescription()" alt="{{ lutherie.titreSite }}"
+                         title="{{ lutherie.titreSite }}">
+
                 </div>
             </div>
 
             <div class="col-lg-4 col-sm-12">
                 <div class="droite">
-                    <a id="galerie" onclick="showHideGalerie()" href="#"></a>
+                    <img id="galerie" src="/img/site/lutherie{{ asset(lutherie.imageGalerie) }}" class="droite"
+                         onclick="showHideGalerie()" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
+
                 </div>
             </div>
 
@@ -49,35 +54,87 @@
 
             <h3>Galerie photos</h3>
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie1 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie1) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie2 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie2) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie3 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie3) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
+
+
+            {% if lutherie.galerie4 is not null %}
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie4 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie4) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
+            {% endif %}
+
+            {% if lutherie.galerie5 is not null %}
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie5 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie5) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
+            {% endif %}
+
+            {% if lutherie.galerie6 is not null %}
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie6 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie6) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
+            {% endif %}
+
+            {% if lutherie.galerie7 is not null %}
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie7 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie7) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
+            {% endif %}
+
+            {% if lutherie.galerie8 is not null %}
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie8 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie8) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
+            {% endif %}
+
+            {% if lutherie.galerie9 is not null %}
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie9 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie9) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
+            {% endif %}
+
+            {% if lutherie.galerie10 is not null %}
             <div class="col-lg-4 col-sm-12 mb-4">
-                <img class="img-galerie w-75" src="{{ lutherie.galerie10 }}">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie10) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
             </div>
+            {% endif %}
+
+            {% if lutherie.galerie11 is not null %}
+            <div class="col-lg-4 col-sm-12 mb-4">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie11) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
+            </div>
+            {% endif %}
+
+            {% if lutherie.galerie12 is not null %}
+            <div class="col-lg-4 col-sm-12 mb-4">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie12) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
+            </div>
+            {% endif %}
+
+            {% if lutherie.galerie13 is not null %}
+            <div class="col-lg-4 col-sm-12 mb-4">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie13) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
+            </div>
+
+            {% endif %}
+            {% if lutherie.galerie14 is not null %}
+            <div class="col-lg-4 col-sm-12 mb-4">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie14) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
+            </div>
+            {% endif %}
+
+            {% if lutherie.galerie15 is not null %}
+            <div class="col-lg-4 col-sm-12 mb-4">
+                <img class="img-galerie w-75" src="/img/site/lutherie{{ asset(lutherie.galerie15) }}" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
+            </div>
+            {% endif %}
 
         </div>
 

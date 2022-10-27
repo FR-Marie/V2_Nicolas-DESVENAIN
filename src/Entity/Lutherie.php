@@ -70,62 +70,62 @@ class Lutherie
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie4;
+    private ?string $galerie4;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie5;
+    private ?string $galerie5;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie6;
+    private ?string $galerie6;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie7;
+    private ?string $galerie7;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie8;
+    private ?string $galerie8;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie9;
+    private ?string $galerie9;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie10;
+    private ?string $galerie10;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie11;
+    private ?string $galerie11;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie12;
+    private ?string $galerie12;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie13;
+    private ?string $galerie13;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie14;
+    private ?string $galerie14;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $galerie15;
+    private ?string $galerie15;
 
     public function getId(): ?int
     {
@@ -257,7 +257,7 @@ class Lutherie
         return $this->galerie4;
     }
 
-    public function setGalerie4(string $galerie4): self
+    public function setGalerie4(?string $galerie4): self
     {
         $this->galerie4 = $galerie4;
 
@@ -269,7 +269,7 @@ class Lutherie
         return $this->galerie5;
     }
 
-    public function setGalerie5(string $galerie5): self
+    public function setGalerie5(?string $galerie5): self
     {
         $this->galerie5 = $galerie5;
 
@@ -281,7 +281,7 @@ class Lutherie
         return $this->galerie6;
     }
 
-    public function setGalerie6(string $galerie6): self
+    public function setGalerie6(?string $galerie6): self
     {
         $this->galerie6 = $galerie6;
 
@@ -293,7 +293,7 @@ class Lutherie
         return $this->galerie7;
     }
 
-    public function setGalerie7(string $galerie7): self
+    public function setGalerie7(?string $galerie7): self
     {
         $this->galerie7 = $galerie7;
 
@@ -305,7 +305,7 @@ class Lutherie
         return $this->galerie8;
     }
 
-    public function setGalerie8(string $galerie8): self
+    public function setGalerie8(?string $galerie8): self
     {
         $this->galerie8 = $galerie8;
 
@@ -317,7 +317,7 @@ class Lutherie
         return $this->galerie9;
     }
 
-    public function setGalerie9(string $galerie9): self
+    public function setGalerie9(?string $galerie9): self
     {
         $this->galerie9 = $galerie9;
 
@@ -329,7 +329,7 @@ class Lutherie
         return $this->galerie10;
     }
 
-    public function setGalerie10(string $galerie10): self
+    public function setGalerie10(?string $galerie10): self
     {
         $this->galerie10 = $galerie10;
 
@@ -341,7 +341,7 @@ class Lutherie
         return $this->galerie11;
     }
 
-    public function setGalerie11(string $galerie11): self
+    public function setGalerie11(?string $galerie11): self
     {
         $this->galerie11 = $galerie11;
 
@@ -353,7 +353,7 @@ class Lutherie
         return $this->galerie12;
     }
 
-    public function setGalerie12(string $galerie12): self
+    public function setGalerie12(?string $galerie12): self
     {
         $this->galerie12 = $galerie12;
 
@@ -365,7 +365,7 @@ class Lutherie
         return $this->galerie13;
     }
 
-    public function setGalerie13(string $galerie13): self
+    public function setGalerie13(?string $galerie13): self
     {
         $this->galerie13 = $galerie13;
 
@@ -377,7 +377,7 @@ class Lutherie
         return $this->galerie14;
     }
 
-    public function setGalerie14(string $galerie14): self
+    public function setGalerie14(?string $galerie14): self
     {
         $this->galerie14 = $galerie14;
 
@@ -389,7 +389,7 @@ class Lutherie
         return $this->galerie15;
     }
 
-    public function setGalerie15(string $galerie15): self
+    public function setGalerie15(?string $galerie15): self
     {
         $this->galerie15 = $galerie15;
 

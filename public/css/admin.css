@@ -1,0 +1,21 @@
+:root{
+    --body-bg: grey;
+    --responsive-header-bg: grey;
+    --sidebar-bg: #626262;
+    --sidebar-menu-color: white;
+    --sidebar-menu-badge-active-color: red;
+
+    --table-thead-color: white;
+    --table-cell-color: white;
+    --table-hover-cell-bg: #565656;
+}
+
+.content-header{
+    background-color: #626262;
+    padding: 20px;
+}
+#main-menu{
+    background-color: grey;
+    font-size: 20px;
+}
+

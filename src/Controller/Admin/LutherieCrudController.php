@@ -22,96 +22,106 @@ class LutherieCrudController extends AbstractCrudController
     {
         return [
             IntegerField::new('id','ID')->onlyOnIndex(),
-            TextField::new('titreSite', 'Titre du site'),
-            TextField::new('titreIntroduction', 'Titre de l\'introduction'),
-            TextEditorField::new('introduction', 'Introduction'),
-            ImageField::new('imageDescription')
-                ->setBasePath('/img')
+            TextField::new('titreSite', 'Titre du site (obligatoire)'),
+            TextField::new('titreIntroduction', 'Titre de l\'introduction (obligatoire)'),
+            TextEditorField::new('introduction', 'Introduction (obligatoire)'),
+
+
+            ImageField::new('imageDescription', 'Image tableau gauche (description - obligatoire)')
+                ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setRequired(true),
-            ImageField::new('imageGalerie')
-                ->setBasePath('/img')
+
+            ImageField::new('imageGalerie', 'Image tableau droit (galerie - obligatoire)')
+                ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setRequired(true),
-            TextEditorField::new('description1', 'Description 1'),
+
+
+            TextEditorField::new('description1', 'Description 1 (obligatoire)'),
             TextEditorField::new('description2', 'Description 2'),
-            ImageField::new('galerie1')
-                ->setBasePath('/img')
+
+
+            ImageField::new('galerie1', 'Image galerie (obligatoire)')
+                ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setRequired(true),
-            ImageField::new('galerie2')
-                ->setBasePath('/img')
+
+            ImageField::new('galerie2', 'Image galerie (obligatoire)')
+                ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setRequired(true),
-            ImageField::new('galerie3')
-                ->setBasePath('/img')
+
+            ImageField::new('galerie3', 'Image galerie (obligatoire)')
+                ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setRequired(true),
-            ImageField::new('galerie4')
+
+            ImageField::new('galerie4', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie5')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie5', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie6')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie6', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie7')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie7', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie8')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie8', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie9')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie9', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie10')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie10', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie11')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie11', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie12')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie12', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie13')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie13', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie14')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie14', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
-            ImageField::new('galerie15')
+                ->setFormType(FileUploadType::class),
+
+            ImageField::new('galerie15', 'Image galerie')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
-                ->setFormType(FileUploadType::class)
-                ->setRequired(true),
+                ->setFormType(FileUploadType::class),
+
 
         ];
     }

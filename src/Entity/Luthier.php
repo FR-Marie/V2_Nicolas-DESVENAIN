@@ -133,7 +133,7 @@ class Luthier
         return $this->image_slide3;
     }
 
-    public function setImageSlide3(string $image_slide3): self
+    public function setImageSlide3(?string $image_slide3): self
     {
         $this->image_slide3 = $image_slide3;
 
@@ -145,7 +145,7 @@ class Luthier
         return $this->image_slide4;
     }
 
-    public function setImageSlide4(string $image_slide4): self
+    public function setImageSlide4(?string $image_slide4): self
     {
         $this->image_slide4 = $image_slide4;
 
@@ -157,7 +157,7 @@ class Luthier
         return $this->image_slide5;
     }
 
-    public function setImageSlide5(string $image_slide5): self
+    public function setImageSlide5(?string $image_slide5): self
     {
         $this->image_slide5 = $image_slide5;
 
@@ -217,7 +217,7 @@ class Luthier
         return $this->titre_texte2;
     }
 
-    public function setTitreTexte2(string $titre_texte2): self
+    public function setTitreTexte2(?string $titre_texte2): self
     {
         $this->titre_texte2 = $titre_texte2;
 
@@ -229,7 +229,7 @@ class Luthier
         return $this->texte2;
     }
 
-    public function setTexte2(string $texte2): self
+    public function setTexte2(?string $texte2): self
     {
         $this->texte2 = $texte2;
 
@@ -241,7 +241,7 @@ class Luthier
         return $this->titre_texte3;
     }
 
-    public function setTitreTexte3(string $titre_texte3): self
+    public function setTitreTexte3(?string $titre_texte3): self
     {
         $this->titre_texte3 = $titre_texte3;
 
@@ -253,7 +253,7 @@ class Luthier
         return $this->texte3;
     }
 
-    public function setTexte3(string $texte3): self
+    public function setTexte3(?string $texte3): self
     {
         $this->texte3 = $texte3;
 
