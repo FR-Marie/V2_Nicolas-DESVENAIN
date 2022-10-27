@@ -47,7 +47,7 @@
             <div class="col-lg-3 col-sm-12 mt-3">
                 <div id="cards-rea" class="card h-100">
                     <div class="card-img">
-                        <img src="{{ realisation.imageRealisation }}" class="img-fluid">
+                        <img src="/img/site/realisations{{ asset(realisation.imageRealisation) }}" class="img-fluid">
                     </div>
                     <div class="card-title border-bottom border-light mx-4 d-flex align-items-center justify-content-center text-center">
                         <h4 class="">{{ realisation.titreRealisation }}</h4>
@@ -61,11 +61,11 @@
 
                         <div class="d-flex text-center mt-3">
                             <div>
-                                <img src="{{ realisation.annexeRealisation1 }}"
+                                <img src="/img/site/realisations{{ asset(realisation.annexeRealisation1) }}"
                                      class="img-card-real w-25 border border-light" alt="">
-                                <img src="{{ realisation.annexeRealisation2 }}"
+                                <img src="/img/site/realisations{{ asset(realisation.annexeRealisation2) }}"
                                      class="img-card-real w-25 border border-light">
-                                <img src="{{ realisation.annexeRealisation3 }}"
+                                <img src="/img/site/realisations{{ asset(realisation.annexeRealisation3) }}"
                                      class="img-card-real w-25 border border-light">
                             </div>
                         </div>

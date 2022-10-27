@@ -206,7 +206,7 @@ class Realisations
         return $this->annexe_realisation4;
     }
 
-    public function setAnnexeRealisation4(string $annexe_realisation4): self
+    public function setAnnexeRealisation4(?string $annexe_realisation4): self
     {
         $this->annexe_realisation4 = $annexe_realisation4;
 
@@ -218,7 +218,7 @@ class Realisations
         return $this->annexe_realisation5;
     }
 
-    public function setAnnexeRealisation5(string $annexe_realisation5): self
+    public function setAnnexeRealisation5(?string $annexe_realisation5): self
     {
         $this->annexe_realisation5 = $annexe_realisation5;
 
@@ -260,5 +260,6 @@ class Realisations
 
         return $this;
     }
+
 
 }

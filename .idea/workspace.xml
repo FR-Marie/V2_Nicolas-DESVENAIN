@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d75aec7-a382-4378-8405-cf520d80fd6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/navbar-accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/navbar-accueil.php" afterDir="false" />
@@ -74,34 +73,63 @@
       <change beforePath="$PROJECT_DIR$/../symfony_le-marche-du-livre/templates/includes/navbar.html.twig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/css/style.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/javascript/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/v2_nicolas_desvenain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/v2_nicolas_desvenain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/site/lutherie/pexels-cottonbro-7095503.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/faucon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/faucon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/fond-70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/fond-sections-branche.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/illu-pres.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/logo-test-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/logo-test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/pexels-andrea-piacquadio-3811868.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/pexels-cottonbro-7095503.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/structure/nav2png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/structure/nav2psd.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technique/structure/navtest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/IMG_20200516_090123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/IMG_20200516_090134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/IMG_20200516_090355.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/IMG_20200526_231916.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/P_20211212_132220_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/P_20211212_132237_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/P_20211212_132250_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/P_20211212_132318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/SAVE-BD-ND.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/Screenshot_20221004-203710_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/rebab-santa-maria-liens-imgs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/redim/rebab-santa-maria-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/redim/rebab-santa-maria-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/redim/rebab-santa-maria-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/redim/rebab-santa-maria-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/rebab-des-cantigas-de-santa-maria/redim/rebab-santa-maria-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/20190517_133326.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/IMG_20200228_111932.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/IMG_20200228_112046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/IMG_20200228_112050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/IMG_20200409_001416.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/P_20210826_124822.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/P_20210826_124837_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/P_20210826_130250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/redim/viele-st-jacques-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/redim/viele-st-jacques-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/redim/viele-st-jacques-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/redim/viele-st-jacques-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/redim/viele-st-jacques-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/viele-st-jacques-de-compostelle/redim/viele-st-jacques-liens-imgs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/1652052578306_IMG_1667.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/IMG_1668.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/IMG_1703_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/IMG_20210329_183205.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/P_20210823_122233_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/P_20210823_122433_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/P_20210823_122455_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/P_20210823_122455_1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/img-22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/redim/viele-liens-imgs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/redim/viele-perpignan-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/redim/viele-perpignan-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/redim/viele-perpignan-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/redim/viele-perpignan-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/site/realisations/vièle-de-perpignan/redim/viele-perpignan-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ActualitesCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ActualitesCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/LutherieCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/LutherieCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/LuthierCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/LuthierCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Lutherie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Lutherie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Luthier.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Luthier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/RealisationsCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/RealisationsCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RealisationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RealisationsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Epoques.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Epoques.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Instruments.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Instruments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Realisations.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Realisations.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/luthier/luthier.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/luthier/luthier.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/realisations/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" afterDir="false" />
@@ -307,7 +335,7 @@
       <workItem from="1666610108389" duration="4800000" />
       <workItem from="1666681630313" duration="19251000" />
       <workItem from="1666767660804" duration="15914000" />
-      <workItem from="1666859133362" duration="2046000" />
+      <workItem from="1666859133362" duration="9895000" />
     </task>
     <servers />
   </component>
@@ -330,10 +358,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1666788334431">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1666875749931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666788334431" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666875749931" />
     <state x="736" y="432" key="ComposerInitDialogKey" timestamp="1665991980382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,10 +370,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666088979811" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1666769981012">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1666877291661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666769981012" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666877291661" />
     <state x="742" y="243" key="NewPhpClassDialog" timestamp="1666101269734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -354,10 +382,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666089177641" />
-    <state x="394" y="106" width="1364" height="829" key="dock-window-1" timestamp="1666860229866">
+    <state x="121" y="102" width="1575" height="825" key="dock-window-1" timestamp="1666875277354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="394" y="106" width="1364" height="829" key="dock-window-1/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666860229866" />
+    <state x="121" y="102" width="1575" height="825" key="dock-window-1/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666875277354" />
+    <state x="234" y="60" width="1335" height="914" key="dock-window-2" timestamp="1666876479857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="234" y="60" width="1335" height="914" key="dock-window-2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666876479857" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1666788436251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

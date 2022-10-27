@@ -11,40 +11,44 @@
         <div class="row">
 
             <div>
-                <img src="{{ RealisationsDetails.imageRealisation }}"
+                <img src="/img/site/realisations{{ asset(RealisationsDetails.imageRealisation) }}"
                      alt="{{ RealisationsDetails.titreRealisation }}"
                      title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
             </div>
 
             <div>
-                <img src="{{ RealisationsDetails.annexeRealisation1 }}"
+                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation1) }}"
                      alt="{{ RealisationsDetails.titreRealisation }}"
                      title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
             </div>
 
             <div>
-                <img src="{{ RealisationsDetails.annexeRealisation2 }}"
+                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation2) }}"
                      alt="{{ RealisationsDetails.titreRealisation }}"
                      title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
             </div>
 
             <div>
-                <img src="{{ RealisationsDetails.annexeRealisation3 }}"
+                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation3) }}"
                      alt="{{ RealisationsDetails.titreRealisation }}"
                      title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
             </div>
 
+            {% if RealisationsDetails.annexeRealisation4 is not null %}
             <div>
-                <img src="{{ RealisationsDetails.annexeRealisation4 }}"
+                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation4) }}"
                      alt="{{ RealisationsDetails.titreRealisation }}"
                      title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
             </div>
+            {% endif %}
 
+            {% if RealisationsDetails.annexeRealisation5 is not null %}
             <div>
-                <img src="{{ RealisationsDetails.annexeRealisation5 }}"
+                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation5) }}"
                      alt="{{ RealisationsDetails.titreRealisation }}"
                      title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
             </div>
+            {% endif %}
 
             <!--row-->
         </div>

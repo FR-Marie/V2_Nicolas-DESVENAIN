@@ -28,30 +28,35 @@ class LuthierCrudController extends AbstractCrudController
                 ->setBasePath('/img/site/luthier')
                 ->setUploadDir('public/img/site/luthier')
                 ->setFormType(FileUploadType::class)
-                ->setRequired(true),
+                ->setRequired(true)
+                ->setFormTypeOption('allow_delete', true),
 
             ImageField::new('imageSlide2')
                 ->setBasePath('/img/site/luthier')
                 ->setUploadDir('public/img/site/luthier')
                 ->setFormType(FileUploadType::class)
-                ->setRequired(true),
+                ->setRequired(true)
+                ->setFormTypeOption('allow_delete', true),
 
             ImageField::new('imageSlide3')
                 ->setBasePath('/img/site/luthier')
                 ->setUploadDir('public/img/site/luthier')
                 ->setFormType(FileUploadType::class)
-                ->setRequired(true),
+                ->setRequired(true)
+                ->setFormTypeOption('allow_delete', true),
 
             ImageField::new('imageSlide4')
                 ->setBasePath('/img/site/luthier')
                 ->setUploadDir('public/img/site/luthier')
-                ->setFormType(FileUploadType::class),
+                ->setFormType(FileUploadType::class)
+                ->setFormTypeOption('allow_delete', true),
 
 
             ImageField::new('imageSlide5')
                 ->setBasePath('/img/site/luthier')
                 ->setUploadDir('public/img/site/luthier')
-                ->setFormType(FileUploadType::class),
+                ->setFormType(FileUploadType::class)
+                ->setFormTypeOption('allow_delete', true),
 
             TextField::new('titreIntroduction', 'Titre de l\'introduction'),
             TextEditorField::new('introduction', 'Introduction'),
