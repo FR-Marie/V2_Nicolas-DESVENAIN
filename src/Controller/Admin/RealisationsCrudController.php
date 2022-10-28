@@ -25,10 +25,10 @@ class RealisationsCrudController extends AbstractCrudController
             IntegerField::new('id','ID')->onlyOnIndex(),
             AssociationField::new('instrument', 'Instrument'),
             AssociationField::new('epoque', 'Epoque'),
-            TextField::new('titrePage', 'Titre de la page (obligatoire)'),
-            TextField::new('titreRealisation', 'Titre de la réalisation (obligatoire)'),
+            TextField::new('titrePage', 'Titre page'),
+            TextField::new('titreRealisation', 'Titre réalisation'),
 
-            ImageField::new('imageRealisation', 'Image réalisation (obligatoire)')
+            ImageField::new('imageRealisation', 'Image réalisation')
                 ->setBasePath('/img/site/realisations')
                 ->setUploadDir('public/img/site/realisations')
                 ->setFormType(FileUploadType::class)

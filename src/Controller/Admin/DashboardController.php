@@ -43,24 +43,24 @@ class DashboardController extends AbstractDashboardController
 
         return [
 
-            MenuItem::section('<h5 class="bg-warning p-2 text-white">LUTHERIE (accueil)</h5>'),
+            MenuItem::section('<h5 class="dash-header p-2 text-white">LUTHERIE (accueil)</h5>'),
             MenuItem::linkToCrud('Lutherie', 'fa fa-play', Lutherie::class),
 
-            MenuItem::section('<h5 class="bg-warning p-2 text-white">LUTHIER (présentation)</h5>'),
+            MenuItem::section('<h5 class="dash-header p-2 text-white">LUTHIER (présentation)</h5>'),
             MenuItem::linkToCrud('Luthier', 'fa fa-play', Luthier::class),
 
-            MenuItem::section('<h5 class="bg-warning p-2 text-white">REALISATIONS</h5>'),
+            MenuItem::section('<h5 class="dash-header p-2 text-white">REALISATIONS</h5>'),
             MenuItem::linkToCrud('Réalisations', 'fa fa-play', Realisations::class),
             MenuItem::linkToCrud('Vidéos', 'fa fa-play', Videos::class),
 
-            MenuItem::section('<h5 class="bg-warning p-2 text-white">ACTUALITES</h5>'),
+            MenuItem::section('<h5 class="dash-header p-2 text-white">ACTUALITES</h5>'),
             MenuItem::linkToCrud('Articles de presse & autres', 'fa fa-play', Actualites::class),
             MenuItem::linkToCrud('Projet en cours', 'fa fa-play', ProjetsEnCours::class),
 
-            MenuItem::section('<h5 class="bg-warning p-2 text-white">UTILISATEURS</h5>'),
+            MenuItem::section('<h5 class="dash-header p-2 text-white">UTILISATEURS</h5>'),
             MenuItem::linkToCrud('Administrateurs', 'fa fa-user', User::class),
 
-            MenuItem::section('<h5 class="bg-warning p-2 text-white">RETOUR AU SITE / DECONNEXION</h5> '),
+            MenuItem::section('<h5 class="dash-header p-2 text-white">RETOUR AU SITE / DECONNEXION</h5> '),
             MenuItem::linkToRoute('Retour au site', 'fa fa-door-open', 'app_lutherie'),
             MenuItem::linkToLogout('Déconnexion', 'fa fa-power-off'),
 

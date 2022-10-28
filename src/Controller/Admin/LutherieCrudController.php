@@ -22,19 +22,19 @@ class LutherieCrudController extends AbstractCrudController
     {
         return [
             IntegerField::new('id','ID')->onlyOnIndex(),
-            TextField::new('titreSite', 'Titre du site (obligatoire)'),
-            TextField::new('titreIntroduction', 'Titre de l\'introduction (obligatoire)'),
-            TextEditorField::new('introduction', 'Introduction (obligatoire)'),
+            TextField::new('titreSite', 'Titre du site (*)'),
+            TextField::new('titreIntroduction', 'Titre introduction (*)'),
+            TextEditorField::new('introduction', 'Introduction (*)'),
 
 
-            ImageField::new('imageDescription', 'Image tableau gauche (description - obligatoire)')
+            ImageField::new('imageDescription', 'Image description (*)')
                 ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setRequired(true)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('imageGalerie', 'Image tableau droit (galerie - obligatoire)')
+            ImageField::new('imageGalerie', 'Image galerie (*)')
                 ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
@@ -42,98 +42,98 @@ class LutherieCrudController extends AbstractCrudController
                 ->setFormTypeOption('allow_delete', true),
 
 
-            TextEditorField::new('description1', 'Description 1 (obligatoire)'),
+            TextEditorField::new('description1', 'Description 1 (*)'),
             TextEditorField::new('description2', 'Description 2'),
 
 
-            ImageField::new('galerie1', 'Image galerie (obligatoire)')
+            ImageField::new('galerie1', 'Img galerie 1 (*)')
                 ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setRequired(true)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie2', 'Image galerie (obligatoire)')
+            ImageField::new('galerie2', 'Img galerie 2 (*)')
                 ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setRequired(true)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie3', 'Image galerie (obligatoire)')
+            ImageField::new('galerie3', 'Img galerie 3 (*)')
                 ->setBasePath('/img/site/lutherie')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setRequired(true)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie4', 'Image galerie')
+            ImageField::new('galerie4', 'Img galerie 4')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie5', 'Image galerie')
+            ImageField::new('galerie5', 'Img galerie 5')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie6', 'Image galerie')
+            ImageField::new('galerie6', 'Img galerie 6')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie7', 'Image galerie')
+            ImageField::new('galerie7', 'Img galerie 7')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie8', 'Image galerie')
+            ImageField::new('galerie8', 'Img galerie 8')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie9', 'Image galerie')
+            ImageField::new('galerie9', 'Img galerie 9')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie10', 'Image galerie')
+            ImageField::new('galerie10', 'Img galerie 10')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie11', 'Image galerie')
+            ImageField::new('galerie11', 'Img galerie 11')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie12', 'Image galerie')
+            ImageField::new('galerie12', 'Img galerie 12')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie13', 'Image galerie')
+            ImageField::new('galerie13', 'Img galerie 13')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie14', 'Image galerie')
+            ImageField::new('galerie14', 'Img galerie 14')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
                 ->setFormTypeOption('allow_delete', true),
 
-            ImageField::new('galerie15', 'Image galerie')
+            ImageField::new('galerie15', 'Img galerie 15')
                 ->setBasePath('/img')
                 ->setUploadDir('public/img/site/lutherie')
                 ->setFormType(FileUploadType::class)
