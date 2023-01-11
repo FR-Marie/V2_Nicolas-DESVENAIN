@@ -5,36 +5,35 @@
 {% block body %}
 
     {% for lutherie in lutherieContent %}
-        <div class="container">
+        <div id="container-lutherie" class="container">
             <div class="row">
                 <h1 class="text-center">{{ lutherie.titreSite }}</h1>
             </div>
 
             <div class="row text-center">
                 <h2 class="text-white">{{ lutherie.titreIntroduction }}</h2>
-                <p class="p-intro">{{ lutherie.introduction }}</p>
+                <p class="p-intro">{{ lutherie.introduction |striptags }}</p>
             </div>
         </div>
+
+
 
 
         <div class="row mt-3 mb-5 justify-content-center">
 
             <div id="" class="col-lg-4 col-sm-12">
                 <div class="gauche">
-                    <img id="description" src="/img/site/lutherie{{ asset(lutherie.imageDescription) }}" class="gauche"
-                         onclick="showHideDescription()" alt="{{ lutherie.titreSite }}"
-                         title="{{ lutherie.titreSite }}">
-
+                    <a href="#" class="a-lutherie" onclick="showHideDescription()"></a>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-sm-12">
+            <div id="" class="col-lg-4 col-sm-12">
                 <div class="droite">
-                    <img id="galerie" src="/img/site/lutherie{{ asset(lutherie.imageGalerie) }}" class="droite"
-                         onclick="showHideGalerie()" alt="{{ lutherie.titreSite }}" title="{{ lutherie.titreSite }}">
-
+                    <a href="#" class="a-lutherie" onclick="showHideGalerie()"></a>
                 </div>
             </div>
+
+
 
         </div>
 
@@ -42,9 +41,9 @@
         <div class="row mt-5 mb-5">
             <div id="toggle-description" class="text-pres-hidden mt-5 mb-5 p-5">
                 <h3 class="text-center">L'histoire de la Lutherie</h3>
-                <p>{{ lutherie.description1 }}</p>
+                <p>{{ lutherie.description1|striptags }}</p>
                 <hr>
-                <p>{{ lutherie.description2 }}</p>
+                <p>{{ lutherie.description2|striptags }}</p>
             </div>
         </div>
 

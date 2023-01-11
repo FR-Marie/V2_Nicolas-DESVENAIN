@@ -35,7 +35,6 @@ class RealisationsController extends AbstractController
             [
                 'pageParameterName' => 'page1',
                 'sortFieldParameterName' => 'sort1',
-                'sortDirectionParameterName' => 'direction1'
             ]
         );
 
@@ -45,7 +44,6 @@ class RealisationsController extends AbstractController
             [
                 'pageParameterName' => 'page2',
                 'sortFieldParameterName' => 'sort2',
-                'sortDirectionParameterName' => 'direction2'
             ]
         );
 

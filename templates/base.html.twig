@@ -24,6 +24,33 @@
     {% include 'includes/navbar.html.twig' %}
 {% endblock %}
 
+<!--LES FLASHBAGS = Notifications-->
+{% for message in app.flashes('success') %}
+    <div class="notification is-success">
+        <button class="delete"></button>
+        {{ message }}
+    </div>
+{% endfor %}
+
+
+{% for message in app.flashes('danger') %}
+    <div class="notification is-danger">
+        <button class="delete"></button>
+        {{ message }}
+    </div>
+{% endfor %}
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+            const $notification = $delete.parentNode;
+            $delete.addEventListener('click', () => {
+                $notification.parentNode.removeChild($notification);
+            });
+        });
+    });
+</script>
+
 <div class="container-fluid">
     {% block body %}{% endblock %}
 </div>

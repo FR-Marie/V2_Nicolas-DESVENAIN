@@ -40,13 +40,14 @@ class RealisationsRepository extends ServiceEntityRepository
     }
 
 //    /**
+//     * @param $instrument
 //     * @return Realisations[] Returns an array of Realisations objects
-//     */
-//    public function findByExampleField($value): array
+//    */
+//   public function findByInstrument($instrument): array
 //    {
 //        return $this->createQueryBuilder('r')
-//            ->andWhere('r.exampleField = :val')
-//            ->setParameter('val', $value)
+//           ->andWhere('r.exampleField = :val')
+//           ->setParameter('val', $instrument)
 //            ->orderBy('r.id', 'ASC')
 //            ->setMaxResults(10)
 //            ->getQuery()

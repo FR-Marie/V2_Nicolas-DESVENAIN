@@ -74,10 +74,28 @@
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/css/style.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../symfony_tests/public/javascript/javascript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/LutherieCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/LutherieCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/RealisationsCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/RealisationsCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ActualitesCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ActualitesCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LutherieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LutherieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RealisationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RealisationsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Realisations.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Realisations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ContactType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ContactType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/RealisationsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RealisationsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/actualites/actualites.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/actualites/actualites.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/luthier/luthier.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/luthier/luthier.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/realisations/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" afterDir="false" />
@@ -252,9 +270,9 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../symfLivresPres" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -284,7 +302,24 @@
       <workItem from="1666681630313" duration="19251000" />
       <workItem from="1666767660804" duration="15914000" />
       <workItem from="1666859133362" duration="10584000" />
-      <workItem from="1666940076599" duration="3827000" />
+      <workItem from="1666940076599" duration="6251000" />
+      <workItem from="1667472231980" duration="3391000" />
+      <workItem from="1667548316816" duration="4964000" />
+      <workItem from="1667636194993" duration="6806000" />
+      <workItem from="1667808160172" duration="14602000" />
+      <workItem from="1667896023047" duration="13262000" />
+      <workItem from="1667979666269" duration="9901000" />
+      <workItem from="1668066238171" duration="3011000" />
+      <workItem from="1668239463248" duration="3650000" />
+      <workItem from="1668327179022" duration="7281000" />
+      <workItem from="1668420867518" duration="11364000" />
+      <workItem from="1668440600977" duration="32000" />
+      <workItem from="1668501250770" duration="2275000" />
+      <workItem from="1668520725126" duration="1851000" />
+      <workItem from="1668584121357" duration="2428000" />
+      <workItem from="1673357209414" duration="916000" />
+      <workItem from="1673369078228" duration="816000" />
+      <workItem from="1673424508099" duration="349000" />
     </task>
     <servers />
   </component>
@@ -307,6 +342,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="715" y="344" key="#Notifications" timestamp="1673369879720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1673369879720" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1666875749931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -319,18 +358,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666088979811" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1666877291661">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1668590820026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666877291661" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1668434564688" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1668590820026" />
     <state x="742" y="243" key="NewPhpClassDialog" timestamp="1666101269734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="742" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666101269734" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1666089177641">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1673369888117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666089177641" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1668440619448" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1673369888117" />
     <state x="486" y="133" width="1243" height="848" key="dock-window-1" timestamp="1666942239232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,16 +384,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666788436251" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/templates/realisations/realisations.html.twig</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1668004457482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1668004457482" />
   </component>
 </project>

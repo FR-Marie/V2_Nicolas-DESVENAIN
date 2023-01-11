@@ -10,31 +10,34 @@
 
         <div id="realisations-recherche" class="row text-center p-4 text-white mt-5">
             <h3>Rechercher dans les réalisations:</h3>
-            <form>
 
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-3 col-sm-12">
+            <form method="post">
+
+                <div class="row w-25 m-auto d-flex">
+
+
                         <label for="" class="d-block">Par instrument:</label>
                         <select class="select-rech p-2">
                             <option value="">Sélectionnez un instrument</option>
                             {% for instrument in instruments %}
-                            <option class="p-2">{{ instrument.instrument }}</option>
+                                <option class="p-2">{{ instrument.instrument }}</option>
                             {% endfor %}
                         </select>
-                    </div>
 
-                    <div class="col-lg-3 col-sm-12">
                         <label for="" class="d-block">Par époque:</label>
                         <select class="select-rech p-2">
                             <option value="">Sélectionnez une époque</option>
                             {% for epoque in epoques %}
-                            <option>{{ epoque.epoque }}</option>
+                                <option>{{ epoque.epoque }}</option>
                             {% endfor %}
                         </select>
-                    </div>
+
+                        <button id="ok-recherches" type="submit" class="btn btn-outline-light w-25 m-auto mt-3">OK</button>
+
                 </div>
 
             </form>
+
         </div>
     </div>
 
@@ -46,7 +49,7 @@
         {% for realisation in realisations %}
             <div class="col-lg-3 col-sm-12 mt-3">
                 <div id="cards-rea" class="card h-100">
-                    <div class="card-img">
+                    <div class="card-img img-fluid">
                         <img src="/img/site/realisations{{ asset(realisation.imageRealisation) }}" class="img-fluid">
                     </div>
                     <div class="card-title border-bottom border-light mx-4 d-flex align-items-center justify-content-center text-center">
@@ -55,7 +58,11 @@
                     <div class="card-body">
                         <div class="card-text d-flex">
                             <div class="">
-                                <p class="text-rea-cards">{{ realisation.resumeRealisation }}</p>
+                                <div class="inst-epoque-real d-flex flex-wrap justify-content-around p-3 mb-3">
+                                    <p class="m-0"><span class="text-decoration-underline">Instrument:</span> {{ realisation.instrument }}</p>
+                                    <p class="m-0"><span class="text-decoration-underline">Epoque:</span> {{ realisation.epoque }}</p>
+                                </div>
+                                <p class="text-rea-cards text-center">{{ realisation.resumeRealisation }}</p>
                             </div>
                         </div>
 
@@ -71,7 +78,8 @@
                         </div>
 
                         <div class="card-footer text-center mt-3">
-                            <a href="{{ path('app_realisation_show', {'id': realisation.id}) }}" class="btn btn-outline-light p-2">Voir en détails</a>
+                            <a href="{{ path('app_realisation_show', {'id': realisation.id}) }}"
+                               class="btn btn-outline-light p-2">Voir en détails</a>
                         </div>
 
                         <!--card body-->
@@ -98,7 +106,9 @@
             {% for video in videos %}
                 <div class="col-lg-3 col-sm-12 mt-3 border border-white mx-2">
                     <h4 class="mt-2">{{ video.titreVideo }}</h4>
-                    <iframe src="{{ video.cheminVideo }}" title="{{ video.titreVideo }}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="{{ video.cheminVideo }}" title="{{ video.titreVideo }}"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     <p class="">{{ video.descriptionVideo }}</p>
                 </div>
             {% endfor %}

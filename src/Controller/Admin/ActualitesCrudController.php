@@ -24,7 +24,6 @@ class ActualitesCrudController extends AbstractCrudController
             TextField::new('titreActualite', 'Titre de l\'actualité'),
             TextField::new('resumeActualite', 'Résumé de l\'actualité'),
             TextField::new('LienActualite', 'Lien de l\'actualité'),
-
         ];
     }
 

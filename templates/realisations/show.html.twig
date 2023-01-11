@@ -4,67 +4,76 @@
 
 {% block body %}
 
-    <h3 class="text-center">{{ RealisationsDetails.titreRealisation }}</h3>
+    <h3 id="h3-details" class="text-center mt-5">{{ RealisationsDetails.titreRealisation }}</h3>
 
-    <div class="container">
-
-        <div class="row">
-
-            <div>
-                <img src="/img/site/realisations{{ asset(RealisationsDetails.imageRealisation) }}"
-                     alt="{{ RealisationsDetails.titreRealisation }}"
-                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
+    <div id="container-details" class="container-fluid mb-5">
+        <div class="row mt-5 justify-content-center align-items-center">
+            <div class="col-description-details-1 col-lg-4 col-sm-12 p-5">
+                <div class="pres-details">
+                    <p><span class="text-decoration-underline">Instrument:</span> {{ RealisationsDetails.instrument }}</p>
+                    <p><span class="text-decoration-underline">Epoque:</span> {{ RealisationsDetails.epoque }}</p>
+                    <p>{{ RealisationsDetails.descriptionRealisation1|striptags }}</p>
+                </div>
             </div>
 
-            <div>
-                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation1) }}"
-                     alt="{{ RealisationsDetails.titreRealisation }}"
-                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
-            </div>
 
-            <div>
-                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation2) }}"
-                     alt="{{ RealisationsDetails.titreRealisation }}"
-                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
-            </div>
+            <div class="col-img-details col-lg-6 p-5">
+                <div class="row">
+                    <div class="col-lg-4 gx-0 gy-0">
+                        <img src="/img/site/realisations{{ asset(RealisationsDetails.imageRealisation) }}"
+                             alt="{{ RealisationsDetails.titreRealisation }}"
+                             title="{{ RealisationsDetails.titreRealisation }}" class="img-details img-fluid">
+                    </div>
 
-            <div>
-                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation3) }}"
-                     alt="{{ RealisationsDetails.titreRealisation }}"
-                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
-            </div>
+                    <div class="col-lg-4 gx-0 gy-0">
+                        <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation1) }}"
+                             alt="{{ RealisationsDetails.titreRealisation }}"
+                             title="{{ RealisationsDetails.titreRealisation }}" class="img-details img-fluid">
+                    </div>
 
-            {% if RealisationsDetails.annexeRealisation4 is not null %}
-            <div>
-                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation4) }}"
-                     alt="{{ RealisationsDetails.titreRealisation }}"
-                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
-            </div>
-            {% endif %}
+                    <div class="col-lg-4 gx-0 gy-0">
+                        <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation2) }}"
+                             alt="{{ RealisationsDetails.titreRealisation }}"
+                             title="{{ RealisationsDetails.titreRealisation }}" class="img-details img-fluid">
+                    </div>
 
-            {% if RealisationsDetails.annexeRealisation5 is not null %}
-            <div>
-                <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation5) }}"
-                     alt="{{ RealisationsDetails.titreRealisation }}"
-                     title="{{ RealisationsDetails.titreRealisation }}" class="w-25 mt-5 mb-3">
-            </div>
-            {% endif %}
 
-            <!--row-->
+                    <div class="col-lg-4 gx-0 gy-0">
+                        <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation3) }}"
+                             alt="{{ RealisationsDetails.titreRealisation }}"
+                             title="{{ RealisationsDetails.titreRealisation }}" class="img-details img-fluid">
+                    </div>
+
+
+                    {% if RealisationsDetails.annexeRealisation4 is not null %}
+                        <div class="col-lg-4 gx-0 gy-0">
+                            <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation4) }}"
+                                 alt="{{ RealisationsDetails.titreRealisation }}"
+                                 title="{{ RealisationsDetails.titreRealisation }}" class="img-details img-fluid">
+                        </div>
+                    {% endif %}
+
+                    {% if RealisationsDetails.annexeRealisation5 is not null %}
+                        <div class="col-lg-4 gx-0 gy-0">
+                            <img src="/img/site/realisations{{ asset(RealisationsDetails.annexeRealisation5) }}"
+                                 alt="{{ RealisationsDetails.titreRealisation }}"
+                                 title="{{ RealisationsDetails.titreRealisation }}" class="img-details img-fluid">
+                        </div>
+                    {% endif %}
+                </div>
+
+                <div class="">
+                    <p class="pres-details-2 mt-5 p-5 text-light">
+                        {{ RealisationsDetails.descriptionRealisation2|striptags }}
+                    </p>
+                </div>
+
+            </div>
         </div>
 
 
-        <div>
-            <p>
-                {{ RealisationsDetails.descriptionRealisation1 }}
-            </p>
-        </div>
 
-        <div>
-            <p>
-                {{ RealisationsDetails.descriptionRealisation2 }}
-            </p>
-        </div>
+
 
     </div>
 
