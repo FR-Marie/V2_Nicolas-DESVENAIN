@@ -12,7 +12,7 @@
                 <div class="pres-details">
                     <p><span class="text-decoration-underline">Instrument:</span> {{ RealisationsDetails.instrument }}</p>
                     <p><span class="text-decoration-underline">Epoque:</span> {{ RealisationsDetails.epoque }}</p>
-                    <p>{{ RealisationsDetails.descriptionRealisation1|striptags }}</p>
+                    <p>{{ RealisationsDetails.descriptionRealisation1|raw }}</p>
                 </div>
             </div>
 
@@ -64,7 +64,7 @@
 
                 <div class="">
                     <p class="pres-details-2 mt-5 p-5 text-light">
-                        {{ RealisationsDetails.descriptionRealisation2|striptags }}
+                        {{ RealisationsDetails.descriptionRealisation2|raw }}
                     </p>
                 </div>
 

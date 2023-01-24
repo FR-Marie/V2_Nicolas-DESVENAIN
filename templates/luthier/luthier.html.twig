@@ -56,7 +56,7 @@
 
                 <div class="col-lg-7 col-sm-12">
                     <h3>{{ luthierPres.titreIntroduction }}</h3>
-                    <p class="p-pres mt-3">{{ luthierPres.introduction|striptags }}</p>
+                    <p class="p-pres mt-3">{{ luthierPres.introduction|raw }}</p>
                 </div>
 
                 <!--row-->
@@ -65,17 +65,17 @@
             <div class="mt-5">
                 <div class="row">
                     <h3>{{ luthierPres.titreTexte1 }}</h3>
-                    <p class="p-pres">{{ luthierPres.texte1|striptags }}</p>
+                    <p class="p-pres">{{ luthierPres.texte1| raw }}</p>
                 </div>
 
                 <div class="row">
                     <h3>{{ luthierPres.titreTexte2 }}</h3>
-                    <p class="p-pres">{{ luthierPres.texte2|striptags }}</p>
+                    <p class="p-pres">{{ luthierPres.texte2|raw }}</p>
                 </div>
 
                 <div class="row">
                     <h3>{{ luthierPres.titreTexte3 }}</h3>
-                    <p class="p-pres">{{ luthierPres.texte3|striptags }}</p>
+                    <p class="p-pres">{{ luthierPres.texte3|raw }}</p>
                 </div>
             </div>
 

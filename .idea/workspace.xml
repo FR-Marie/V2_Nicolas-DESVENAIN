@@ -11,97 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d75aec7-a382-4378-8405-cf520d80fd6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/navbar-accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/navbar-accueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/categories/gestion_categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/categories/gestion_categories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/categories/navbar-pages-categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/categories/navbar-pages-categories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/affichage_consoles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/affichage_consoles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/ajouter_produit_consoles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/ajouter_produit_consoles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/edition_produit_consoles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/edition_produit_consoles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/navbar-pages-consoles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/navbar-pages-consoles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/suppression_produit_consoles.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/consoles/suppression_produit_consoles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/fournisseurs/gestion_fournisseurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/fournisseurs/gestion_fournisseurs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/fournisseurs/navbar-pages-fournisseurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/fournisseurs/navbar-pages-fournisseurs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/affichage_jeux-de-societe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/affichage_jeux-de-societe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/ajouter_produit_jeux-de-societe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/ajouter_produit_jeux-de-societe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/edition_produit_jeux-de-societe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/edition_produit_jeux-de-societe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/suppression_produit_jeux-de-societe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/jeux-de-societe/suppression_produit_jeux-de-societe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/affichage_livres.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/affichage_livres.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/ajouter_produit_livres.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/ajouter_produit_livres.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/edition_produit_livres.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/edition_produit_livres.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/suppression_produit_livres.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_jointures_PHP/pages/livres/suppression_produit_livres.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio-Final/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio-Final/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio-Final/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio-Final/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio-Final/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio-Final/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio-Final/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio-Final/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio-Final/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio-Final/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Portfolio/traitement_mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Portfolio/traitement_mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_Annonces.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_Annonces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_Regions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_Regions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_SplashPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_SplashPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_Utilisateurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/controller/Controller_Utilisateurs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/css/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/js/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_Annonces.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_Annonces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_Regions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_Regions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_SplashPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_SplashPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_Utilisateurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/Model_Utilisateurs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/model/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/model/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/view/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/accueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/view/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/view/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/view/inscriptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/inscriptions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/view/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/view/splashPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/splashPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-marche-du-livre/view/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/../le-marche-du-livre/view/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luthier-nicolas-desvenain/public/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../luthier-nicolas-desvenain/public/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfLivresPres/config/packages/knp_paginator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../symfLivresPres/config/packages/knp_paginator.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfLivresPres/public/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../symfLivresPres/public/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfLivresPres/templates/includes/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../symfLivresPres/templates/includes/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfony2/public/css/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfony_le-marche-du-livre/public/css/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfony_le-marche-du-livre/public/js/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfony_le-marche-du-livre/templates/includes/footer.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfony_le-marche-du-livre/templates/includes/navbar.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfony_tests/public/css/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../symfony_tests/public/javascript/javascript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ActualitesCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ActualitesCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/LutherieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LutherieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/RealisationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RealisationsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Realisations.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Realisations.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/ContactType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ContactType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/RealisationsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RealisationsRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/actualites/actualites.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/actualites/actualites.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lutherie/lutherie.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/luthier/luthier.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/luthier/luthier.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/realisations.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/realisations/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/realisations/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/css/marie_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wordpress/wp-content/themes/marie_theme/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +234,9 @@
       <workItem from="1668584121357" duration="2428000" />
       <workItem from="1673357209414" duration="916000" />
       <workItem from="1673369078228" duration="816000" />
-      <workItem from="1673424508099" duration="349000" />
+      <workItem from="1673424508099" duration="2950000" />
+      <workItem from="1673451899634" duration="17000" />
+      <workItem from="1674566131015" duration="2660000" />
     </task>
     <servers />
   </component>
@@ -367,11 +284,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="742" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1666101269734" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1673369888117">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1673451915999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1668440619448" />
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1673369888117" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1673451915999" />
     <state x="486" y="133" width="1243" height="848" key="dock-window-1" timestamp="1666942239232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

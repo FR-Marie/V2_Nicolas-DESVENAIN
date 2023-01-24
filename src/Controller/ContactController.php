@@ -49,7 +49,10 @@ class ContactController extends AbstractController
             $mailer->send($email);
 
             //Un message indique à l'utilisateur si l'envoi est réussi
-            $this->addFlash('success', 'Message envoyé');
+            $this->addFlash('success', 'Message envoyé, vous allez être redirigé sur la page d\'accueil');
+
+            //Un message indique à l'utilisateur si l'envoi échoue
+            $this->addFlash('danger', 'Impossible d\'envoyer le message, veuillez réessayer');
 
             //redirection sur la page Lutherie
             return $this->redirectToRoute('app_lutherie');

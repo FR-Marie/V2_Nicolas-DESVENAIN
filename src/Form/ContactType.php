@@ -21,7 +21,7 @@ class ContactType extends AbstractType
                 'constraints' => [
                     new NotBlank(),
                     new Regex([
-                    'pattern' => "[a-zA-Zéèëàäïì-]",
+                    'pattern' => "/a-zA-Zéèëàäïì-/",
                     'message' => 'Merci de n\'entrer que des lettres'
                 ])
             ]])
@@ -29,7 +29,7 @@ class ContactType extends AbstractType
                 'constraints' => [
                     new NotBlank(),
                     new Regex([
-                    'pattern' => "[a-zA-Zéèëàäïì-]",
+                    'pattern' => "/a-zA-Zéèëàäïì-/",
                     'message' => 'Merci de n\'entrer que des lettres'
                 ])
             ]])
@@ -37,7 +37,7 @@ class ContactType extends AbstractType
                 'constraints' => [
                     new NotBlank(),
                     new Regex([
-                    'pattern' => "[a-zA-Z0-9éèëàäïì@.-_]",
+                    'pattern' => "/a-zA-Z0-9éèëàäïì@.-_/",
                     'message' => 'Merci d\'entrer un mail valide'
                 ])
             ]])
@@ -46,7 +46,7 @@ class ContactType extends AbstractType
                 'constraints' => [
                     new NotBlank(),
                     new Regex([
-                    'pattern' => "[a-zA-Z0-9éèëàäïì@.-_]",
+                    'pattern' => "/a-zA-Z0-9éèëàäïì@.-_,;?!/",
                     'message' => 'Merci de n\'entrer que des lettres et des chiffres de 0 à 9'
                 ])
             ]]);

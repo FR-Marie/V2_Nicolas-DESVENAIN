@@ -12,7 +12,7 @@
 
             <div class="row text-center">
                 <h2 class="text-white">{{ lutherie.titreIntroduction }}</h2>
-                <p class="p-intro">{{ lutherie.introduction |striptags }}</p>
+                <p class="p-intro">{{ lutherie.introduction |raw }}</p>
             </div>
         </div>
 
@@ -41,9 +41,9 @@
         <div class="row mt-5 mb-5">
             <div id="toggle-description" class="text-pres-hidden mt-5 mb-5 p-5">
                 <h3 class="text-center">L'histoire de la Lutherie</h3>
-                <p>{{ lutherie.description1|striptags }}</p>
+                <p>{{ lutherie.description1|raw }}</p>
                 <hr>
-                <p>{{ lutherie.description2|striptags }}</p>
+                <p>{{ lutherie.description2|raw }}</p>
             </div>
         </div>
 
